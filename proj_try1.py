@@ -21,14 +21,14 @@ def insertion(l1,l2,n):
     name='Insertion sort'
     for i in range(1, n):
         j=0
-        plot(l1,l2,0,False,i,i,name)
+        plot(l2,l1,0,False,i,i,name)
         key = l1[i] 
         j = i-1
         while j >=0 and key < l1[j] : 
             l1[j+1] = l1[j] 
             j -= 1
         l1[j+1] = key
-        plot(l1,l2,0,False,i,i,name)
+        plot(l2,l1,0,False,i,i,name)
         
 def selection(l1,l2,n):
     name='selection sort'
@@ -37,9 +37,9 @@ def selection(l1,l2,n):
         for j in range(i+1,n):
             if l1[min_ind]>l1[j]:
                 min_ind=j
-        plot(l1,l2,0,False,i,min_ind,name)
+        plot(l2,l1,0,False,i,min_ind,name)
         l1[i],l1[min_ind]=l1[min_ind],l1[i]
-        plot(l1,l2,0,False,i,min_ind,name)
+        plot(l2,l1,0,False,i,min_ind,name)
 
 
 
