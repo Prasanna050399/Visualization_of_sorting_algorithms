@@ -46,7 +46,7 @@ def selection(l1,l2,n):
 
 def main():
     l1=list()
-    n=10
+    n=20
     d1=dict()
     i=0
     while i<n:
