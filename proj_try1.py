@@ -10,7 +10,7 @@ def plot(l1,l2,flag1,flag2,index1,index2,name):
         mp.show(block=False)
         #time.sleep(2)
         temp[index1].set_color('r')
-        temp[index2].set_color('r')
+        temp[index2].set_color('g')
         mp.pause(0.2)
         #mp.close()
         mp.clf()
