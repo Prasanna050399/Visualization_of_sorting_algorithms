@@ -12,7 +12,7 @@ A. Selection Sort:
   When we enter 1 for selection sort, the program creates an array of integers. The values in the array are totally random, however with some extra code, the elements are not repeated.
   The following images shows how the program looks when selection sort is selected for execution.
   
-    ![alt text](https://github.com/Prasanna050399/Visualization_of_sorting_algorithms/tree/master/selection.png?raw=true)
+    ![alt text](https://github.com/Prasanna050399/Visualization_of_sorting_algorithms/tree/master/selection.png)
   
   The Final Output is as follows:
   
