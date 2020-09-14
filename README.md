@@ -31,8 +31,8 @@ B. Insertion Sort:
 C. Bubble Sort:
   This is the last algorithm in the proj_try1.py script.
   
-   ![](Output%20screen_shot/Bubble_final.png)
+   ![](Output%20screen_shot/Bubble.png)
 
   The Final Output is as follows:
   
-   ![](Output%20screen_shot/Bubble_final.png)
+   ![](Output%20screen_shot/bubble_final.png)
